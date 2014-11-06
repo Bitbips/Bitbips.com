@@ -1,0 +1,12 @@
+#servicewrapper .wrapper ul li .service.service1 {
+	color: #F00;
+}
+#servicewrapper .wrapper ul li .service.service1 {
+	font-family: MS Serif, New York, serif;
+}
+#servicewrapper .wrapper ul li .service.service1 strong code {
+	font-size: 16px;
+}
+#servicewrapper .wrapper ul li {
+	font-family: Times New Roman, Times, serif;
+}

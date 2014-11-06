@@ -1,0 +1,29 @@
+# Geolocation Table
+DROP TABLE IF EXISTS `prefix_geolocation`;
+CREATE TABLE `prefix_geolocation` (
+	`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`request` bigint NOT NULL,
+	`city` text NOT NULL,
+	`state` text NOT NULL,
+	`country` text NOT NULL,
+	`latitude` text NOT NULL,
+	`longitude` text NOT NULL
+) ENGINE=MyISAM /*!40101 CHARACTER SET=utf8 */;
+
+# Device Table
+CREATE TABLE `prefix_devices` (
+	`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`user` bigint NOT NULL,
+	`datetime` datetime NOT NULL default '0000-00-00 00:00:00',
+	`unique` text NOT NULL,
+	`device` text NOT NULL,
+	`os` text NOT NULL,
+	`token` text NOT NULL
+) ENGINE=MyISAM /*!40101 CHARACTER SET=utf8 */;
+
+# Settings Table
+ALTER TABLE `prefix_settings` CHANGE `value` `value` LONGTEXT CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT '' AFTER `name`;
+
+# Add Licensing Settings
+INSERT INTO `prefix_settings` (`name`, `value`) VALUES ('LicenseKey', '') ON DUPLICATE KEY UPDATE `name` = `name`;
+INSERT INTO `prefix_settings` (`name`, `value`) VALUES ('LicenseLocalKey', '') ON DUPLICATE KEY UPDATE `name` = `name`;

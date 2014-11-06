@@ -1,0 +1,126 @@
+Live Help v4.1 Rev.1
+New Features
+---
+Added World Map Visitor Location to HTML5 Administration
+Added Embedded Chat Operator Details Auto Hide
+Added Block Chat Option
+Added Multiple Device PUSH Messaging (multiple mobile Devices can receive PUSH Alerts for a single operator account)
+Added Google Chrome Speech-to-text support
+Added HTML5 Administration Language Pack
+Added HTML5 Administration Password Reset
+Added HTML5 Administration Delete Pre-typed Response
+Added HTML5 Administration Typing Indicator
+Added Minimum jQuery Support for jQuery 1.4.4 (web pages can now use jQuery 1.4.4 with the Live Help HTML code)
+Added Setting to Disable WHMCS Ticket Generation ($_SETTINGS['WHMCSTICKETS'] = false)
+Added WHMCS Knowledgebase Article Links as Pre-typed Responses
+
+Bug Fixes
+---
+Resolved Statistics Time Zone Issue
+Resolved History Time Formatting Issue
+Resolved JSON UTF-8 Issues
+Resolved HTML5 Administration Adding PUSH Command Issue
+Resolved Add Account Refresh Showing New Account
+Improved Google Adwords Keyword Detection
+Improved HTML5 Administration UI
+Removed Legacy IP2Country Database (MaxMind is the only supported option for visitor locations)
+Minor Bug Fixes
+
+
+Live Help v4.0 Rev. 9
+New Features
+---
+Added Windows 8 App Tile Support
+Updated JavaScript Libraries
+Improved Overriding OperatorStatus Mode when using iPhone and Android Apps
+
+Bug Fixes
+---
+Resolved SQL Security Vulnerability within /livehelp/include/conversion.php
+Removed Legacy PHP Files within /livehelp/scripts/
+Resolved HTML5 Admin Sound Issue
+Resolved WHMCS 5.2 Compatibility Hook Issue
+Resolved WHMCS HTML Special Characters Login Issue
+
+
+
+Live Help v4.0 Release
+New Features
+---
+Added HTML5 Web Based Adminstration
+Added Statistics / Charts
+Updated Authentication to v4.0 (Bcrypt)
+Added WHMCS Ticket Masking
+Added Google Cloud Messaging Support
+
+Bug Fixes
+---
+Resolved Popup Window Disconnect Issue 
+Resolved Switch Popup Window Cache Issue
+Improved Email Functionality
+Improved AES mcrypt Module Detection 
+Resolved Various CSS Conflicts
+Updated jQuery v1.8.0 Library
+Other Minor Bug Fixes and Improvements
+
+
+
+Live Help v3.95 Rev. 7
+Bug Fixes
+----
+Added WHMCS Hook Language Pack Support
+Added Email Parameters Setting
+Improved Embedded Chat CSS Compatibility
+Resolved Web Based Administration Login Issue
+Resolved Security Code Unsupported Validation Issue
+Resolved Installation Operator Account Issue
+Resolved WHMCS Login Case Sensitive Issue
+Resolved WHMCS Hidden Departments Issue
+Resolved WHMCS Cart Issue
+Resolved Close Chat Notification Issue
+
+
+
+Live Help v3.95 Rev. 6
+Bug Fixes
+----
+Resolved jQuery noConflict Errors
+Added jQuery JavaScript Language Pack and Protocol Settings
+Resolved JSON Callback PHP Compatibility Issue
+Added jQuery JavaScript HTTP / HTTPS Protocol Override Setting
+Updated Global / Country Top-Level Domains
+Improved Embedded Chat CSS Compatibility
+Resolved Initiate Chat Position / Accept Button Issue
+Resolved WHMCS Chat Transcript Ticketing Issue
+
+
+
+Live Help v3.95 Rev. 5
+New Features
+---
+Added Embedded Chat
+Added HTML5 Sounds
+Updated Templates for HTML5 Sound Library (Please Update Any Custom Templates)
+Updated Default Templates
+Removed WHMCS Portal Template (Default Template Style Matches WHMCS v5)
+Removed Frames Template
+Updated Joomla and WordPress Modules to v1.60
+Improved Embedded Chat and Popup Window Chat JavaScript
+Improved First Party Cookie Support (Removed Third-Party Cookies)
+Updated WHMCS Hook HTML Code
+Added WHMCS Account Integration
+
+Bug Fixes
+----
+Resolved Security Code GD2 Extension Windows UNC Path Issue
+Resolved XHTML Compliance Issues
+Resolved WHMCS Configuration Whitespace Issue
+Resolved JavaScript Setting Issues
+Resolved IP Address Validation Issue
+Added WordPress w/ Auto Install Plugin (Installs Live Help MySQL Database into the WordPress Database)
+Added jQuery noConflict Option and Chat Tab Slider Options to the WordPress Plugin
+Added PHP mail() From and Return-Path Header Parameters
+Added jQuery Easing Framework
+Added Slider Chat Tab Slider Options to the Joomla Module
+Updated Joomla Module Version 1.6.0
+Updated WordPress Plugin Version 1.60
